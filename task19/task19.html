@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic form design using HTML</title>
+</head>
+<style>
+    label{
+        padding-right: 12px;
+        margin-left: -70px;
+        font-size: 17px;
+
+    }
+    input{
+        margin-bottom: 20px;
+    }
+    textarea{
+        height: 50px;
+        width: 200px;
+        margin-top: -1px;
+        margin-left: -70px;
+    }
+    button{
+        margin-top: 15px;
+        margin-left: -70px;
+    }
+    fieldset{
+        width: 400px;
+        font-family: 'Times New Roman', Times, serif;
+        padding-left: 50px;
+    }
+</style>
+<body>
+   <form action="../task18/task18.html">
+    <h1>GeeksforGeeks</h1>
+    <h3>Basic form design using HTML</h3>
+    <pre>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="">First Name:</label><input type="text" placeholder="Enter your First Name">
+            <label for="">Last Name:</label><input type="text" placeholder="Enter your Last Name">
+            <label for="">Gender:</label><input type="radio" name="g">Male <input type="radio" name="g">Female
+            <label for="">Email:</label> <input type="email" placeholder="Enter Your Email">
+            <label for="">Date of Birth:</label> <input type="date" placeholder="dd/mm/yyyy">
+            <label for="">Address:</label>
+            <textarea name="commands" id="" placeholder="Enter your Address"></textarea>
+            <button type="submit">submit</button>
+        </fieldset>
+    </pre>
+   </form>
+   
+   
+    
+</body>
+</html>
